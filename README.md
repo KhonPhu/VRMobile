@@ -34,17 +34,17 @@ Player Settings > Other Settings > Bundle Identifier	Follow reverse the DNS form
 
 # Build and run the demo scene on your device - Google Developers. (n.d.)
 
-* Android
-  * Enable developer options on your device
-  * Connect your phone to your computer using a USB cable.
-  * Select File > Build and Run.
-Unity builds your project into an Android APK, installs it on the device, and launches it.
-4.	Put the phone in your viewer and try out the demo
-* IOS
-1.	Connect your phone to your computer using a USB cable.
-2.	Select File > Build and Run.
-Unity builds your project and opens the generated XCode workspace.
-3.	Put the phone in your viewer and try out the demo
+a. Android
+	1. Enable developer options on your device
+	2. Connect your phone to your computer using a USB cable.
+	3. Select File > Build and Run.
+	Unity builds your project into an Android APK, installs it on the device, and launches it.
+	4. Put the phone in your viewer and try out the demo
+b. IOS
+	1. Connect your phone to your computer using a USB cable.
+	2. Select File > Build and Run.
+	Unity builds your project and opens the generated XCode workspace.
+	3. Put the phone in your viewer and try out the demo
 
 # How to control in Unity Editor play mode
 
