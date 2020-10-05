@@ -4,26 +4,28 @@
 
 First of all, you need Unity to build this project, and make sure the Android or IOS build support component is installed. If not, go to File -> Build Setting and install the platform. (The version of it should be 2019.4.4)
  
-Important: This project is an online conference, so there need to be two people to start the session. Therefore, secondary device is required to see the whole project.
+### Important: This project is an online conference, so there need to be two people to start the session. Therefore, secondary device is required to see the whole project.
 
 Configure settings - Google Developers. (n.d.)
 
 Because the project is built for mobile device, you need to configure the project follow the steps bellow:
-* Android
-Select File -> Build Setting -> Player Setting
-Setting	Value
-Player Settings > XR Settings > Virtual Reality Supported	Enabled
-Player Settings > XR Settings > Virtual Reality SDKs	Click + and select Cardboard
-Player Settings > Other Settings > Minimum API Level	Android 4.4 'KitKat' (API level 19) or higher
 
+* Android:
+	* Select File -> Build Setting -> Player Setting
+Setting | Value
+------------ | -------------
+Player Settings > XR Settings > Virtual Reality Supported | Enabled
+Player Settings > XR Settings > Virtual Reality SDKs | Click + and select Cardboard
+Player Settings > Other Settings > Minimum API Level | Android 4.4 'KitKat' (API level 19) or higher
 
 * IOS
-Select File -> Build Setting -> Player Setting
-Setting	Value
-Player Settings > Other Settings > Virtual Reality Supported	Enabled
-Player Settings > Other Settings > SDKs	Click + and select Cardboard
-Player Settings > Other Settings > Target minimum iOS version	8.0 or higher
-Player Settings > Other Settings > Bundle Identifier	Follow reverse the DNS format suggested by Apple
+	* Select File -> Build Setting -> Player Setting
+Setting | Value
+------------ | -------------
+Player Settings > Other Settings > Virtual Reality Supported | Enabled
+Player Settings > Other Settings > SDKs | Click + and select Cardboard
+Player Settings > Other Settings > Target minimum iOS version | 8.0 or higher
+Player Settings > Other Settings > Bundle Identifier | Follow reverse the DNS format suggested by Apple
 
 # Preview the Scene in Unity
 
@@ -48,10 +50,11 @@ b. IOS
 
 # How to control in Unity Editor play mode
 
-Type	Simulated action	What to do
-Head movement	Turn your head	Hold Alt + move mouse
-	Tilt your view	Hold Control + move mouse
-Teleport	Button press	Hold Alt + move mouse + mouse click
+Type | Simulated action | What to do
+------------ | ------------- | -------------
+Head movement | Turn your head | Hold Alt + move mouse
+              | Tilt your view | Hold Control + move mouse
+Teleport | Button press | Hold Alt + move mouse + mouse click
 
 # Reference
 Google Developers. (n.d.). QuickStart for Google VR SDK for Unity with Android. [online] Available at: https://developers.google.com/vr/develop/unity/get-started-android
