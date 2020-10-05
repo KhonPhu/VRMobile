@@ -10,16 +10,18 @@ Configure settings - Google Developers. (n.d.)
 
 Because the project is built for mobile device, you need to configure the project follow the steps bellow:
 
-* Android:
-	* Select File -> Build Setting -> Player Setting
+a. Android:
+Select File -> Build Setting -> Player Setting
+
 Setting | Value
 ------------ | -------------
 Player Settings > XR Settings > Virtual Reality Supported | Enabled
 Player Settings > XR Settings > Virtual Reality SDKs | Click + and select Cardboard
 Player Settings > Other Settings > Minimum API Level | Android 4.4 'KitKat' (API level 19) or higher
 
-* IOS
-	* Select File -> Build Setting -> Player Setting
+b. IOS
+Select File -> Build Setting -> Player Setting
+
 Setting | Value
 ------------ | -------------
 Player Settings > Other Settings > Virtual Reality Supported | Enabled
@@ -53,7 +55,7 @@ b. IOS
 Type | Simulated action | What to do
 ------------ | ------------- | -------------
 Head movement | Turn your head | Hold Alt + move mouse
-              | Tilt your view | Hold Control + move mouse
+Head movement | Tilt your view | Hold Control + move mouse
 Teleport | Button press | Hold Alt + move mouse + mouse click
 
 # Reference
